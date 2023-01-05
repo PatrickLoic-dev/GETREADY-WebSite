@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #1D0F28;
+    color: #fff;
+    display: flex;
+}
+
+p{
+    font-size: 20px;
+}
+.side.menu{
+    display: flex;
+    flex-direction: column;
+  }
+  
+.button{
+display: flex;
+align-items: center;
+margin-top: 350px;
+}
+
+#button-text{
+margin-left: 5px;
+font-size: 30px;
+}
+
+.icons{
+margin-top: 200px;
+display: flex;
+flex-direction: column;
+}
+
+.icon{
+margin-bottom: 20px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elements{
+    display: flex;
+}
+
+.formulaire{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 350px;
+}
+
+.part1{
+    width: 600px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;   
+    /* margin-top: 118px; */
+}
+
+.set1 label{
+    margin-bottom: 10px;
+}
+
+.set2 label{
+    margin-bottom: 10px;
+}
+
+
+
+.part2 label{
+    margin-bottom: 10px;
+}
+
+.text{
+    text-align: center;
+    margin-right: 150px;
+}
+
+.set1{
+    display: flex;
+}
+
+.set2{
+    display: flex;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.cas{
+    display: flex;
+    flex-direction: row;
+}
+
+.cas input{
+    margin-right: 10px;
+ 
+}
+
+.radio:last-child{
+    margin-left: 10px;
+}
+
+.input {
+    border-radius: 5px;
+    height: 20px;
+    border: none;
+    width: 200px;
+    margin-bottom: 10px;
+}
+button{
+    width: 425px;
+    background: #883F8F;
+    border: none;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.input.content{
+    height: 250px;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
