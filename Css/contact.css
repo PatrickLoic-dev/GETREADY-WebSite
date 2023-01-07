@@ -4,6 +4,8 @@ body{
     background: #1D0F28;
     color: #fff;
     display: flex;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 p{
@@ -22,17 +24,26 @@ margin-top: 350px;
 
 #button-text{
 margin-left: 5px;
-font-size: 30px;
+font-size: 24px;
 }
 
 .icons{
-margin-top: 200px;
+margin-top: 140px;
 display: flex;
 flex-direction: column;
 }
 
 .icon{
 margin-bottom: 20px;
+}
+
+.formulaire .title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.formulaire .text{
+    font-size: 15px;
 }
 
 .col{
@@ -50,7 +61,7 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 350px;
+    margin-bottom: 150px;
 }
 
 .part1{
@@ -103,7 +114,7 @@ margin-bottom: 20px;
 
 .cas input{
     margin-right: 10px;
- 
+    outline: none;
 }
 
 .radio:last-child{
@@ -116,6 +127,7 @@ margin-bottom: 20px;
     border: none;
     width: 200px;
     margin-bottom: 10px;
+    outline: none;
 }
 button{
     width: 425px;
@@ -123,12 +135,13 @@ button{
     border: none;
     height: 30px;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
     border-radius: 5px;
 }
 
 .input.content{
-    height: 250px;
-    width: 400px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    height: 418px;
+    width: 480px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
 }

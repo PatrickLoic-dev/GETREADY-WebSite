@@ -3,6 +3,7 @@ body{
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container{
@@ -12,7 +13,6 @@ body{
 .container.acceuil{
   display: flex;
   color: #fff;
-  /* position: absolute; */
 }
 
 .background{
@@ -25,9 +25,13 @@ body{
   border-right: 1px solid #fff;
 }
 
+.background:last-child{
+  border-right: none;
+}
+
 .text{
   margin-left: -15px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .side.menu{
@@ -43,11 +47,11 @@ body{
 
 #button-text{
   margin-left: 5px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .icons{
-  margin-top: 200px;
+  margin-top: 140px;
   display: flex;
   flex-direction: column;
 }
@@ -76,11 +80,13 @@ body{
 
 .background.menu{
   background: #FEC260;
+  border-right: 1px solid #000;
 }
 
-.background.menu:nth-child(4){
+.background.menu:last-child{
   display: flex;
   flex-direction: column;
+  border-right: none;
 }
 
 .gr-icon{

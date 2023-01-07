@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.container {
+    position: relative;
+}
+
+.container.acceuil {
+    display: flex;
+    color: #fff;
+}
+
+.background{
+    position: relative;
+    background: #1D0F28;
+    flex: 1;
+    height: 100vh;
+    width: 25vw;
+    border-right: 1px solid #fff;
+}
+
+.background:first-child{
+    padding: 1em;
+}
+
+.background:nth-child(3){
+    background: #ccc;
+}
+
+.background:nth-child(4){
+    display: flex;
+    background: no-repeat url('/Assets/close-up-hand-holding-smartphone_23-2149148857.webp');
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.background:nth-child(4)::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+.background:last-child,:first-child {
+    border-right: none;
+}
+
+.side.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+}
+
+#button-text {
+    margin-left: 5px;
+    font-size: 24px;
+}
+
+.icons {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+.col{
+    width: 100%;
+    height: 100%;
+    flex: none;
+    scroll-snap-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.col:nth-child(3n){
+    background-color: pink;
+
+}
+
+.col:nth-child(3n + 1){
+    background-color: lightblue;
+}
