@@ -17,29 +17,30 @@ p{
   }
   
 .button{
-display: flex;
-align-items: center;
-margin-top: 350px;
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
 }
 
 #button-text{
-margin-left: 5px;
-font-size: 24px;
+    margin-left: 5px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .icons{
-margin-top: 140px;
-display: flex;
-flex-direction: column;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
 }
 
 .icon{
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .formulaire .title{
     font-size: 30px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .formulaire .text{
@@ -76,16 +77,19 @@ margin-bottom: 20px;
 
 .set1 label{
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .set2 label{
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 
 
 .part2 label{
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .text{
@@ -110,6 +114,7 @@ margin-bottom: 20px;
 .cas{
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 
 .cas input{
@@ -136,6 +141,7 @@ button{
     height: 30px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     border-radius: 5px;
 }
 
